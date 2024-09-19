@@ -94,7 +94,7 @@ nx.draw(G, pos=pos)
 tr_figure = ax.transData.transform
 tr_axes = fig.transFigure.inverted().transform
 
-icon_size = (ax.get_xlim()[1] - ax.get_xlim()[0]) * 0.007
+icon_size = (ax.get_xlim()[1] - ax.get_xlim()[0]) * 0.006
 icon_center = icon_size / 2.0
 
 for n in G.nodes:
